@@ -36,8 +36,3 @@ plt.ylabel('Wind Speed km/h')
 # print('to_graph values: ', to_graph.values())
 plt.scatter(to_graph.keys(), to_graph.values())
 plt.show()
-
-# expected output should look something like:
-#   {'Aug-24-2021': 12,
-#    'Aug-25-2021': 14,  
-#    'Aug-26-2021': 0 }
